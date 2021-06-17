@@ -16,6 +16,7 @@ var server = net.createServer(function(client) {
 });
 
 server.listen(8107, function() {
+    console.log("Server Run")
   server.on('close', function(){
   });
   server.on('error', function(err){
